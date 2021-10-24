@@ -62,6 +62,7 @@ import GovCMS from './statuspage/govcms'
 import Hipchat from './statuspage/hipchat'
 import Hubspot from './statuspage/hubspot'
 import Imgix from './statuspage/imgix'
+import IFTTT from './statuspage/ifttt'
 import Intercom from './statuspage/intercom'
 import Jamf from './statuspage/jamf'
 import Keenio from './statuspage/keenio'
@@ -217,6 +218,7 @@ const allServices = new Map<string, Service>([
   ['Hipchat', new Hipchat()],
   ['Hubspot', new Hubspot()],
   ['Imgix', new Imgix()],
+  ['IFTTT', new IFTTT()],
   ['Intercom', new Intercom()],
   ['Jamf', new Jamf()],
   ['Keenio', new Keenio()],
