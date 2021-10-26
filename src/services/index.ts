@@ -61,7 +61,7 @@ import Github from './statuspage/github'
 import GovCMS from './statuspage/govcms'
 import Hipchat from './statuspage/hipchat'
 import Hubspot from './statuspage/hubspot'
-import Hypixel from `./statuspage/hypixel`
+import Hypixel from './statuspage/hypixel'
 import Imgix from './statuspage/imgix'
 import IFTTT from './statuspage/ifttt'
 import Intercom from './statuspage/intercom'
