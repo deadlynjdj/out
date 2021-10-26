@@ -218,7 +218,7 @@ const allServices = new Map<string, Service>([
   ['GovCMS', new GovCMS()],
   ['Hipchat', new Hipchat()],
   ['Hubspot', new Hubspot()],
-  [`Hypixel`, new Hypixel()]
+  [`Hypixel`, new Hypixel()],
   ['Imgix', new Imgix()],
   ['IFTTT', new IFTTT()],
   ['Intercom', new Intercom()],
