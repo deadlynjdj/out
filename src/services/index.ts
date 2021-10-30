@@ -160,7 +160,7 @@ import Slack from './slack'
 
 const allServices = new Map<string, Service>([
   // Instatus pages
-  ['Cloudconvert', new Cloudconvert()]
+  ['Cloudconvert', new Cloudconvert()],
   ['Instatus', new Instatus()],
   ['SketchCloud', new Sketch()],
   ['Linear', new Linear()],
