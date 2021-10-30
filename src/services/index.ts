@@ -299,7 +299,7 @@ const allServices = new Map<string, Service>([
   ['Docker', new Docker()],
   ['Gitlab', new Gitlab()],
   ['Letsencrypt', new Letsencrypt()],
-  ['Roblox', new Roblox()]
+  ['Roblox', new Roblox()],
   ['Sendinblue', new Sendinblue()],
   ['Wasabi', new Wasabi()],
 
