@@ -1,6 +1,7 @@
 import Service from './service'
 
 // Intatus services
+import Cloudconvert from './instatus/cloudconvert'
 import Instatus from './instatus/instatus'
 import Sketch from './instatus/sketch'
 import Linear from './instatus/linear'
@@ -139,6 +140,7 @@ import Dashlane from './statusio/dashlane'
 import Docker from './statusio/docker'
 import Gitlab from './statusio/gitlab'
 import Letsencrypt from './statusio/letsencrypt'
+import Roblox from './statusio/roblox'
 import Sendinblue from './statusio/sendinblue'
 import Wasabi from './statusio/wasabi'
 
@@ -158,6 +160,7 @@ import Slack from './slack'
 
 const allServices = new Map<string, Service>([
   // Instatus pages
+  ['Cloudconvert', new Cloudconvert()]
   ['Instatus', new Instatus()],
   ['SketchCloud', new Sketch()],
   ['Linear', new Linear()],
@@ -295,9 +298,10 @@ const allServices = new Map<string, Service>([
   ['Dashlane', new Dashlane()],
   ['Docker', new Docker()],
   ['Gitlab', new Gitlab()],
+  ['Letsencrypt', new Letsencrypt()],
+  ['Roblox', new Roblox()]
   ['Sendinblue', new Sendinblue()],
   ['Wasabi', new Wasabi()],
-  [`Letsencrypt`, new Letsencrypt()],
 
   // Cachet pages
   ['Clever Cloud', new CleverCloud()],
