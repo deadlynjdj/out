@@ -135,6 +135,7 @@ import Zoom from './statuspage/zoom'
 import Zwift from './statuspage/zwift'
 
 // Status.io services
+import ClickUp from './statusio/clickup'
 import Cloud66 from './statusio/cloud66'
 import Dashlane from './statusio/dashlane'
 import Docker from './statusio/docker'
@@ -294,6 +295,7 @@ const allServices = new Map<string, Service>([
   ['Zwift', new Zwift()],
 
   // Status.io pages
+  ['ClickUp', new ClickUp()],
   ['Cloud66', new Cloud66()],
   ['Dashlane', new Dashlane()],
   ['Docker', new Docker()],
