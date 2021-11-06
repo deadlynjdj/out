@@ -105,4 +105,3 @@ MIT
 
 ## Made by
 [Instatus.com](https://instatus.com) – Get a quick & beautiful status page ([@alisalahio](https://twitter.com/alisalahio))
-Made worse by ([@deadlynjdj](https://twitter.com/deadlynjdj))
