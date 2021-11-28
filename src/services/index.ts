@@ -25,6 +25,7 @@ import Bitrise from './statuspage/bitrise'
 import Bolt from './statuspage/bolt'
 import Box from './statuspage/box'
 import Braintree from './statuspage/braintree'
+import Brave from './statuspage/brave'
 import Buildkite from './statuspage/buildkite'
 import Bullhorn from './statuspage/bullhorn'
 import Buttondown from './statuspage/buttondown'
@@ -61,6 +62,7 @@ import Gandi from './statuspage/gandi'
 import Github from './statuspage/github'
 import Gitpod from './statuspage/gitpod'
 import GovCMS from './statuspage/govcms'
+import HashiCorp from './statuspage/hashicorp'
 import Hipchat from './statuspage/hipchat'
 import Hubspot from './statuspage/hubspot'
 import Hypixel from './statuspage/hypixel'
@@ -87,6 +89,11 @@ import Netlify from './statuspage/netlify'
 import Notion from './statuspage/notion'
 import Npm from './statuspage/npm'
 import OnePassword from './statuspage/onepassword'
+import OVHcloudBareMetalCloud from './statuspage/ovhcloudbaremetalcloud'
+import ovhcloudcustomerservice from '.statuspage/ovhcloudcustomerservice'
+import OVHcloudNetworkInfrastructure from '.statuspage/ovhcloudnetworkinfrastructure'
+import OVHcloudPublicCloud from './statuspage/ovhcloudpubliccloud'
+import OVHcloudWebCloud from './statuspage/ovhcloudwebcloud'
 import Packet from './statuspage/packet'
 import PagerDuty from './statuspage/pagerduty'
 import Pantheon from './statuspage/pantheon'
@@ -116,8 +123,9 @@ import Snyk from './statuspage/snyk'
 import Spoke from './statuspage/spoke'
 import Squarespace from './statuspage/squarespace'
 import Statuspage from './statuspage/statuspage'
-import Supabase from './statuspage/supabase'
 import Stream from './statuspage/stream'
+import Supabase from './statuspage/supabase'
+import Termius from './statuspage/termius'
 import TravisCI from './statuspage/travisci'
 import Trello from './statuspage/trello'
 import Twilio from './statuspage/twilio'
@@ -142,6 +150,7 @@ import Dashlane from './statusio/dashlane'
 import Docker from './statusio/docker'
 import Gitlab from './statusio/gitlab'
 import Letsencrypt from './statusio/letsencrypt'
+import OVHcloudUS from './statusio/ovhcloudus'
 import Roblox from './statusio/roblox'
 import Sendinblue from './statusio/sendinblue'
 import Wasabi from './statusio/wasabi'
@@ -186,6 +195,7 @@ const allServices = new Map<string, Service>([
   ['Bolt', new Bolt()],
   ['Box', new Box()],
   ['Braintree', new Braintree()],
+  ['Brave', new Brave()],
   ['Buildkite', new Buildkite()],
   ['Bullhorn', new Bullhorn()],
   ['Buttondown', new Buttondown()],
@@ -222,6 +232,7 @@ const allServices = new Map<string, Service>([
   ['Github', new Github()],
   ['Gitpod', new Gitpod()],
   ['GovCMS', new GovCMS()],
+  ['HashiCorp', new HashiCorp()],
   ['Hipchat', new Hipchat()],
   ['Hubspot', new Hubspot()],
   ['Hypixel', new Hypixel()],
@@ -248,6 +259,11 @@ const allServices = new Map<string, Service>([
   ['Notion', new Notion()],
   ['Npm', new Npm()],
   ['OnePassword', new OnePassword()],
+  ['OVHcloudBareMetalCloud', new OVHcloudBareMetalCloud()],
+  ['OVHcloudCustomerService', new OVHcloudCustomerService()],
+  ['OVHcloudNetworkInfrastructure', new OVHcloudNetworkInfrastructure()],
+  ['OVHcloudPublicCloud', new OVHcloudPublicCloud()],
+  ['OVHcloudWebCloud', new OVHcloudWebCloud()],
   ['Packet', new Packet()],
   ['PagerDuty', new PagerDuty()],
   ['Pantheon', new Pantheon()],
@@ -277,8 +293,9 @@ const allServices = new Map<string, Service>([
   ['Spoke', new Spoke()],
   ['Squarespace', new Squarespace()],
   ['Statuspage', new Statuspage()],
-  ['Supabase', new Supabase()],
   ['Stream', new Stream()],
+  ['Supabase', new Supabase()],
+  ['Termius', new Termius()],
   ['TravisCI', new TravisCI()],
   ['Trello', new Trello()],
   ['Twilio', new Twilio()],
@@ -303,6 +320,7 @@ const allServices = new Map<string, Service>([
   ['Docker', new Docker()],
   ['Gitlab', new Gitlab()],
   ['Letsencrypt', new Letsencrypt()],
+  ['OVHcloudUS', new OVHcloudUS()],
   ['Roblox', new Roblox()],
   ['Sendinblue', new Sendinblue()],
   ['Wasabi', new Wasabi()],
