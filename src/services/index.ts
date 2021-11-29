@@ -61,6 +61,7 @@ import FiveTran from './statuspage/fivetran'
 import Gandi from './statuspage/gandi'
 import Github from './statuspage/github'
 import Gitpod from './statuspage/gitpod'
+import Glitch from './statuspage/glitch'
 import GovCMS from './statuspage/govcms'
 import HashiCorp from './statuspage/hashicorp'
 import Hipchat from './statuspage/hipchat'
@@ -231,6 +232,7 @@ const allServices = new Map<string, Service>([
   ['Gandi', new Gandi()],
   ['Github', new Github()],
   ['Gitpod', new Gitpod()],
+  ['Glitch', new Glitch()],
   ['GovCMS', new GovCMS()],
   ['HashiCorp', new HashiCorp()],
   ['Hipchat', new Hipchat()],
