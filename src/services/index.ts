@@ -114,6 +114,7 @@ import Robinhood from './statuspage/robinhood'
 import Rollbar from './statuspage/rollbar'
 import Rubygems from './statuspage/rubygems'
 import SauceLabs from './statuspage/saucelabs'
+import Scaleway from './statuspage/scaleway'
 import Section from './statuspage/section'
 import Segment from './statuspage/segment'
 import SendGrid from './statuspage/sendgrid'
@@ -285,6 +286,7 @@ const allServices = new Map<string, Service>([
   ['Rollbar', new Rollbar()],
   ['Rubygems', new Rubygems()],
   ['SauceLabs', new SauceLabs()],
+  ['Scaleway', new Scaleway()],
   ['Section', new Section()],
   ['Segment', new Segment()],
   ['SendGrid', new SendGrid()],
