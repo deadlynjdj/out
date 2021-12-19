@@ -19,6 +19,7 @@ import Asana from './statuspage/asana'
 import Atlassian from './statuspage/atlassian'
 import Auth0 from './statuspage/auth0'
 import Avalara from './statuspage/avalara'
+import balenacloud from './statuspage/balenacloud'
 import Basecamp from './statuspage/basecamp'
 import Bitbucket from './statuspage/bitbucket'
 import Bitrise from './statuspage/bitrise'
@@ -192,6 +193,7 @@ const allServices = new Map<string, Service>([
   ['Atlassian', new Atlassian()],
   ['Auth0', new Auth0()],
   ['Avalara', new Avalara()],
+  ['balenacloud', new balenacloud()],
   ['Basecamp', new Basecamp()],
   ['Bitbucket', new Bitbucket()],
   ['Bitrise', new Bitrise()],
