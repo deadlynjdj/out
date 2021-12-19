@@ -103,6 +103,7 @@ import Pantheon from './statuspage/pantheon'
 import Papertail from './statuspage/papertrail'
 import Pendo from './statuspage/pendo'
 import PivotalTracker from './statuspage/pivotaltracker'
+import PlanetScale from './statuspage/planetscale'
 import PlatformSH from './statuspage/platformsh'
 import Pubnub from './statuspage/pubnub'
 import Pusher from './statuspage/pusher'
@@ -277,6 +278,7 @@ const allServices = new Map<string, Service>([
   ['Papertail', new Papertail()],
   ['Pendo', new Pendo()],
   ['PivotalTracker', new PivotalTracker()],
+  ['planetscale', new PlanetScale()],
   ['PlatformSH', new PlatformSH()],
   ['Pubnub', new Pubnub()],
   ['Pusher', new Pusher()],
