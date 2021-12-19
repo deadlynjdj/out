@@ -2,7 +2,7 @@ import StatusPageService from '../base/statuspage'
 
 class Pendo extends StatusPageService {
   constructor() {
-    super('Pendo', 'https://status.pendo.io/api', 'qxvy69hcwh22')
+    super('Pendo', 'https://status.pendo.io/', 'qxvy69hcwh22')
   }
 }
 
