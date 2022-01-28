@@ -112,6 +112,7 @@ import Quandl from './statuspage/quandl'
 import Quay from './statuspage/quay'
 import Recurly from './statuspage/recurly'
 import Reddit from './statuspage/reddit'
+import Redis from './statuspage/redis'
 import RevenueCat from './statuspage/revenuecat'
 import Robinhood from './statuspage/robinhood'
 import Rollbar from './statuspage/rollbar'
@@ -287,6 +288,7 @@ const allServices = new Map<string, Service>([
   ['Quay', new Quay()],
   ['Recurly', new Recurly()],
   ['Reddit', new Reddit()],
+  ['Redis', new Reddit()],
   ['RevenueCat', new RevenueCat()],
   ['Robinhood', new Robinhood()],
   ['Rollbar', new Rollbar()],
