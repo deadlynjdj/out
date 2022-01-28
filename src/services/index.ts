@@ -288,7 +288,7 @@ const allServices = new Map<string, Service>([
   ['Quay', new Quay()],
   ['Recurly', new Recurly()],
   ['Reddit', new Reddit()],
-  ['Redis', new Reddit()],
+  ['Redis', new Redis()],
   ['RevenueCat', new RevenueCat()],
   ['Robinhood', new Robinhood()],
   ['Rollbar', new Rollbar()],
