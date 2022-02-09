@@ -159,6 +159,7 @@ import Letsencrypt from './statusio/letsencrypt'
 import OVHcloudUS from './statusio/ovhcloudus'
 import Roblox from './statusio/roblox'
 import Sendinblue from './statusio/sendinblue'
+import Shadow from './statusio/shadow'
 import Wasabi from './statusio/wasabi'
 
 // Cachet services
@@ -174,6 +175,7 @@ import Heroku from './heroku'
 import AWS from './aws'
 import Postmark from './postmark'
 import Slack from './slack'
+import Shadow from './statusio/shadow'
 
 const allServices = new Map<string, Service>([
   // Instatus pages
@@ -335,6 +337,7 @@ const allServices = new Map<string, Service>([
   ['OVHcloudUS', new OVHcloudUS()],
   ['Roblox', new Roblox()],
   ['Sendinblue', new Sendinblue()],
+  ['Shadow', new Shadow()],
   ['Wasabi', new Wasabi()],
 
   // Cachet pages
