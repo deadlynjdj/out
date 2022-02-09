@@ -143,6 +143,7 @@ import UrbanAirship from './statuspage/urbanairship'
 import Vercel from './statuspage/vercel'
 import VictorOps from './statuspage/victorops'
 import Vimeo from './statuspage/vimeo'
+import Wasabi from './statuspage/wasabi'
 import WeTransfer from './statuspage/wetransfer'
 import Wodby from './statuspage/wodby'
 import Zapier from './statuspage/zapier'
@@ -160,7 +161,7 @@ import OVHcloudUS from './statusio/ovhcloudus'
 import Roblox from './statusio/roblox'
 import Sendinblue from './statusio/sendinblue'
 import Shadow from './statusio/shadow'
-import Wasabi from './statusio/wasabi'
+
 
 // Cachet services
 import CleverCloud from './cachet/clevercloud'
@@ -175,7 +176,6 @@ import Heroku from './heroku'
 import AWS from './aws'
 import Postmark from './postmark'
 import Slack from './slack'
-import Shadow from './statusio/shadow'
 
 const allServices = new Map<string, Service>([
   // Instatus pages
@@ -321,6 +321,7 @@ const allServices = new Map<string, Service>([
   ['Vercel', new Vercel()],
   ['VictorOps', new VictorOps()],
   ['Vimeo', new Vimeo()],
+  ['Wasabi', new Wasabi()],
   ['WeTransfer', new WeTransfer()],
   ['Wodby', new Wodby()],
   ['Zapier', new Zapier()],
@@ -338,7 +339,6 @@ const allServices = new Map<string, Service>([
   ['Roblox', new Roblox()],
   ['Sendinblue', new Sendinblue()],
   ['Shadow', new Shadow()],
-  ['Wasabi', new Wasabi()],
 
   // Cachet pages
   ['Clever Cloud', new CleverCloud()],
