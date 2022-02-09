@@ -1,4 +1,4 @@
-import StatusIoService from '../base/statusio'
+import StatusPageService from '../base/statusio'
 
 class Wasabi extends StatusPageService {
   constructor() {
