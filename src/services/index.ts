@@ -106,6 +106,7 @@ import Pendo from './statuspage/pendo'
 import PivotalTracker from './statuspage/pivotaltracker'
 import PlanetScale from './statuspage/planetscale'
 import PlatformSH from './statuspage/platformsh'
+import Plex from './statuspage/plex'
 import Pubnub from './statuspage/pubnub'
 import Pusher from './statuspage/pusher'
 import Python from './statuspage/python'
@@ -285,6 +286,7 @@ const allServices = new Map<string, Service>([
   ['PivotalTracker', new PivotalTracker()],
   ['planetscale', new PlanetScale()],
   ['PlatformSH', new PlatformSH()],
+  ['plex', new Plex()],
   ['Pubnub', new Pubnub()],
   ['Pusher', new Pusher()],
   ['Python', new Python()],
