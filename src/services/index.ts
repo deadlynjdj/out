@@ -86,6 +86,7 @@ import Mailgun from './statuspage/mailgun'
 import Mapbox from './statuspage/mapbox'
 import Mediatemple from './statuspage/mediatemple'
 import Mixpanel from './statuspage/mixpanel'
+import MongoDB from './statuspage/mongodb'
 import Mural from './statuspage/mural'
 import Newrelic from './statuspage/newrelic'
 import Netdata from './statuspage/netdata'
@@ -266,6 +267,7 @@ const allServices = new Map<string, Service>([
   ['Mapbox', new Mapbox()],
   ['Mediatemple', new Mediatemple()],
   ['Mixpanel', new Mixpanel()],
+  ['mongoDB', new MongoDB()],
   ['Mural', new Mural()],
   ['Netdata', new Netdata()],
   ['Netlify', new Netlify()],
