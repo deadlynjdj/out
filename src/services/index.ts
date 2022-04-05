@@ -48,6 +48,7 @@ import DatadogEU from './statuspage/datadogeu'
 import DigitalOcean from './statuspage/digitalocean'
 import Discord from './statuspage/discord'
 import Dnsimple from './statuspage/dnsimple'
+import DocHub from './statuspage/dochub'
 import Doppler from './statuspage/doppler'
 import drand from './statuspage/drand'
 import Dropbox from './statuspage/dropbox'
@@ -229,6 +230,7 @@ const allServices = new Map<string, Service>([
   ['DigitalOcean', new DigitalOcean()],
   ['Discord', new Discord()],
   ['Dnsimple', new Dnsimple()],
+  ['DocHub', new DocHub()],
   ['Doppler', new Doppler()],
   ['drand', new drand()],
   ['Dropbox', new Dropbox()],
