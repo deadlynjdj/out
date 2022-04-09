@@ -149,6 +149,7 @@ import VictorOps from './statuspage/victorops'
 import Vimeo from './statuspage/vimeo'
 import Wasabi from './statuspage/wasabi'
 import WeTransfer from './statuspage/wetransfer'
+import Wikimedia from './statuspage/Wikimedia'
 import Wodby from './statuspage/wodby'
 import Zapier from './statuspage/zapier'
 import Zoom from './statuspage/zoom'
@@ -330,6 +331,7 @@ const allServices = new Map<string, Service>([
   ['VictorOps', new VictorOps()],
   ['Vimeo', new Vimeo()],
   ['Wasabi', new Wasabi()],
+  ['Wikimedia', new Wikimedia()],
   ['WeTransfer', new WeTransfer()],
   ['Wodby', new Wodby()],
   ['Zapier', new Zapier()],
