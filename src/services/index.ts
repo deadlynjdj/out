@@ -95,6 +95,7 @@ import Netlify from './statuspage/netlify'
 import Notion from './statuspage/notion'
 import Npm from './statuspage/npm'
 import OnePassword from './statuspage/onepassword'
+import Onshape from './statuspage/onshape'
 import OVHcloudBareMetalCloud from './statuspage/ovhcloudbaremetalcloud'
 import OVHcloudCustomerService from './statuspage/ovhcloudcustomerservice'
 import OVHcloudNetworkInfrastructure from './statuspage/ovhcloudnetworkinfrastructure'
@@ -278,6 +279,7 @@ const allServices = new Map<string, Service>([
   ['Notion', new Notion()],
   ['Npm', new Npm()],
   ['OnePassword', new OnePassword()],
+  ['Onshape', new Onshape()],
   ['OVHcloudBareMetalCloud', new OVHcloudBareMetalCloud()],
   ['OVHcloudCustomerService', new OVHcloudCustomerService()],
   ['OVHcloudNetworkInfrastructure', new OVHcloudNetworkInfrastructure()],
