@@ -118,6 +118,7 @@ import Quay from './statuspage/quay'
 import Recurly from './statuspage/recurly'
 import Reddit from './statuspage/reddit'
 import Redis from './statuspage/redis'
+import Render from './statuspage/render'
 import RevenueCat from './statuspage/revenuecat'
 import Robinhood from './statuspage/robinhood'
 import Rollbar from './statuspage/rollbar'
@@ -302,6 +303,7 @@ const allServices = new Map<string, Service>([
   ['Recurly', new Recurly()],
   ['Reddit', new Reddit()],
   ['Redis', new Redis()],
+  ['Render,', new Render()],
   ['RevenueCat', new RevenueCat()],
   ['Robinhood', new Robinhood()],
   ['Rollbar', new Rollbar()],
