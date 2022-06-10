@@ -5445,10 +5445,10 @@ matcher@^3.0.0:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-menubar@^9.0.4:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.1.0.tgz#194acc6b50eb36efff60aab77c038a027e0ca2d5"
-  integrity sha512-JPnaswwTKjPj11mn52TkeAohlzpfUb5R8zbwpESvFVIejIqj0IYFw6I3H5+n3Pph5VT2LhxLvm0eURTAwjXpxg==
+menubar@^9.2.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.2.0.tgz#dcded4ccd29fda14a19062d1e984c87ab08bbf88"
+  integrity sha512-4nSIaf6WIy7CoXQ4Gok8hHinkLxnQO80fD9VP+VpOkQ6ByWLRyHwDlq0EEUcwVH73GASye0nEPO+PwxV5kyT6Q==
   dependencies:
     electron-positioner "^4.1.0"
 
