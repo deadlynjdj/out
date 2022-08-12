@@ -110,7 +110,7 @@
     "@primer/octicons-react": "^14.1.0",
     "axios": "0.27.2",
     "classnames": "^2.3.1",
-    "date-fns": "^2.21.3",
+    "date-fns": "^2.29.1",
     "electron-store": "^8.0.0",
     "electron-updater": "^4.6.5",
     "final-form": "^4.20.2",
