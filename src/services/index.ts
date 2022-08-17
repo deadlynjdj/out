@@ -9,6 +9,7 @@ import Freecodecamp from './instatus/freecodecamp'
 import Plausible from './instatus/plausible'
 import Primcloud from './instatus/primcloud'
 import SpaceHey from './instatus/spacehey'
+import Deno from './instatus/deno';
 
 // Statuspage services
 import Acquia from './statuspage/acquia'
@@ -194,6 +195,7 @@ const allServices = new Map<string, Service>([
   ['Plausible', new Plausible()],
   ['Primcloud', new Primcloud()],
   ['SpaceHey', new SpaceHey()],
+  ['Deno', new Deno()],
 
   // Statuspage pages
   ['Acquia', new Acquia()],
