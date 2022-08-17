@@ -5106,10 +5106,10 @@ matcher@^3.0.0:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-menubar@^9.0.4:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.2.0.tgz#dcded4ccd29fda14a19062d1e984c87ab08bbf88"
-  integrity sha512-4nSIaf6WIy7CoXQ4Gok8hHinkLxnQO80fD9VP+VpOkQ6ByWLRyHwDlq0EEUcwVH73GASye0nEPO+PwxV5kyT6Q==
+menubar@^9.2.1:
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.2.1.tgz#eb378fb6c80a52639201f9f2fe8b5a6b49dc1c55"
+  integrity sha512-1uPyapxHHmQX0DswIXhXnIREXu7z0G0U6K0kQ4rRBsgucdUtQXoX7GK//59Cpz+fv2CM3VS4WVyGtAyJpHagsg==
   dependencies:
     electron-positioner "^4.1.0"
 
