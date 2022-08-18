@@ -75,6 +75,8 @@ import Hypixel from './statuspage/hypixel'
 import Imgix from './statuspage/imgix'
 import IFTTT from './statuspage/ifttt'
 import Intercom from './statuspage/intercom'
+import IONOS from './statuspage/ionos'
+import IONOSCloud from './statuspage/ionoscloud'
 import Jamf from './statuspage/jamf'
 import Keenio from './statuspage/keenio'
 import Kentik from './statuspage/kentik'
@@ -261,6 +263,8 @@ const allServices = new Map<string, Service>([
   ['Imgix', new Imgix()],
   ['IFTTT', new IFTTT()],
   ['Intercom', new Intercom()],
+  ['IONOS',new IONOS()]
+  ['IONOSCloud',new IONOSCloud()]
   ['Jamf', new Jamf()],
   ['Keenio', new Keenio()],
   ['Kentik', new Kentik()],
