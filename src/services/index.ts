@@ -263,8 +263,8 @@ const allServices = new Map<string, Service>([
   ['Imgix', new Imgix()],
   ['IFTTT', new IFTTT()],
   ['Intercom', new Intercom()],
-  ['IONOS',new IONOS()]
-  ['IONOSCloud',new IONOSCloud()]
+  ['IONOS', new IONOS()],
+  ['IONOSCloud', new IONOSCloud()],
   ['Jamf', new Jamf()],
   ['Keenio', new Keenio()],
   ['Kentik', new Kentik()],
