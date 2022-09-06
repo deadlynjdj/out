@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   analyze:
-analyze:
     name: Analyze
     runs-on: ubuntu-latest
     permissions:
@@ -57,7 +56,7 @@ analyze:
 
   build-macos:
     runs-on: macos-latest
-    needs: Analyze
+    needs: analyze
     steps:
       - uses: actions/checkout@v2
       - name: Get yarn cache
