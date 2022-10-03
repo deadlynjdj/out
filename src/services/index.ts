@@ -107,6 +107,7 @@ import OVHcloudWebCloud from './statuspage/ovhcloudwebcloud'
 import Packet from './statuspage/packet'
 import PagerDuty from './statuspage/pagerduty'
 import Pantheon from './statuspage/pantheon'
+import PaperSpace from './statuspage/paperspace'
 import Papertail from './statuspage/papertrail'
 import Pendo from './statuspage/pendo'
 import PivotalTracker from './statuspage/pivotaltracker'
@@ -295,6 +296,7 @@ const allServices = new Map<string, Service>([
   ['Packet', new Packet()],
   ['PagerDuty', new PagerDuty()],
   ['Pantheon', new Pantheon()],
+  ['PaperSpace', new PaperSpace()],
   ['Papertail', new Papertail()],
   ['Pendo', new Pendo()],
   ['PivotalTracker', new PivotalTracker()],
