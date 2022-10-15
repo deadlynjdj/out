@@ -4982,10 +4982,10 @@ matcher@^3.0.0:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-menubar@^9.2.1:
-  version "9.2.2"
-  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.2.2.tgz#94a7b557d41155b92092c76a04f73b7590b18a57"
-  integrity sha512-+Wu0SDURRUQ1J0bn8xgsPfCVow1Thba0zx273lxVG2le38H218TieT9VizHjtNK7GkFDFNmDxky9n3P4JYtu6g==
+menubar@^9.2.3:
+  version "9.2.3"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.2.3.tgz#263e94f01446ed399f9d060b9dbe525e91b27325"
+  integrity sha512-d+HKGlQ9lKcTWWiSQIeSlxL/puZ2Nu9IPhFVdh3D4kXB4ep4OSufUHrJ65rWrCnvpXcrjZad2U9Nov2M1WTxog==
   dependencies:
     electron-positioner "^4.1.0"
 
