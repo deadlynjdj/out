@@ -116,7 +116,7 @@
     "date-fns": "^2.29.3",
     "electron-store": "^8.1.0",
     "electron-updater": "^4.6.5",
-    "final-form": "^4.20.2",
+    "final-form": "^4.20.8",
     "js-search": "^2.0.0",
     "lodash": "^4.17.21",
     "menubar": "^9.2.3",
