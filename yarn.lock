@@ -5018,10 +5018,10 @@ matcher@^3.0.0:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-menubar@^9.2.3:
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.2.3.tgz#263e94f01446ed399f9d060b9dbe525e91b27325"
-  integrity sha512-d+HKGlQ9lKcTWWiSQIeSlxL/puZ2Nu9IPhFVdh3D4kXB4ep4OSufUHrJ65rWrCnvpXcrjZad2U9Nov2M1WTxog==
+menubar@^9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.3.0.tgz#a245be0cedbfeb3900d23a37e87a71d2a0f0c7a5"
+  integrity sha512-TC7R5YR+OKVfFIyGiZ+HkKmY0hMLhOseX6wN0DxWzzF1CNhZ2Tm3hMB6erc35jzBmrsMDghRm89dtSeY0VjmjQ==
   dependencies:
     electron-positioner "^4.1.0"
 
