@@ -161,7 +161,7 @@
     "jest": "^26.6.3",
     "nock": "^13.0.11",
     "postcss": "^8.2.15",
-    "postcss-loader": "^7.0.1",
+    "postcss-loader": "^7.2.4",
     "prettier": "^2.3.0",
     "react-test-renderer": "=17.0.2",
     "style-loader": "^3.3.2",
