@@ -143,7 +143,7 @@
     "autoprefixer": "^10.4.14",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
-    "electron": "^12.0.7",
+    "electron": "^22.3.8",
     "electron-builder": "^23.6.0",
     "electron-notarize": "^1.2.2",
     "eslint": "7.32.0",
