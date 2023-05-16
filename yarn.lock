@@ -674,10 +674,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@primer/octicons-react@^18.2.0":
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-18.2.0.tgz#eeac37b3d42980a7edebd790b9373d22bdb89f72"
-  integrity sha512-taT0l99qztqU9NnNo0HCutm3mEjBmXcaqWlmCLvU2MrKVrMZF3HuwaguPhNl/rNk8+mpgtDSTTDPBlpI0MtPPA==
+"@primer/octicons-react@^19.1.0":
+  version "19.1.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.1.0.tgz#3fa08f5dc6dd02e2c46703a8052541425e40cbc7"
+  integrity sha512-owWS3jHcsMOQMRzXURSnbqkkQCgmNOZWmm/vejzwnPU21m8Wz1Xng5i0pu1B/VuW7cmsNh5+r5XsVM8r1igY6A==
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
