@@ -132,7 +132,7 @@
   "devDependencies": {
     "@testing-library/react": "^12.1.5",
     "@testing-library/react-hooks": "^8.0.1",
-    "@types/jest": "^29.5.9",
+    "@types/jest": "^29.5.10",
     "@types/lodash": "^4.14.202",
     "@types/node": "^20.9.3",
     "@types/react": "^17.0.5",
