@@ -112,7 +112,7 @@
   "dependencies": {
     "axios": "1.6.3",
     "@primer/octicons-react": "^19.8.0",
-    "classnames": "^2.3.3",
+    "classnames": "^2.4.0",
     "date-fns": "^3.0.6",
     "electron-store": "^8.1.0",
     "electron-updater": "^6.1.7",
