@@ -6,31 +6,6 @@ on:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
 jobs:
-  build-macos:
-    runs-on: macos-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install Dependencies
-        run: yarn install
-      - name: Build
-        run: yarn build
-      - name: Make macOS (electron-builder)
-        env:
-          CSC_LINK: ${{ secrets.mac_certs }}
-          CSC_KEY_PASSWORD: ${{ secrets.mac_certs_password }}
-        run: yarn make:macos --publish=never -c.mac.identity=null
-      - name: Clean up builds
-        run: rm -rfv dist/mac dist/mac-arm64
   build-windows:
     runs-on: windows-latest
     steps:
@@ -75,46 +50,6 @@ jobs:
         run: yarn make:linux --publish=never
       - name: Clean up builds
         run: rm -rfv dist/linux-unpacked
-  release-macos:
-    runs-on: macos-latest
-    needs: build-macos
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install Dependencies
-        run: yarn install
-
-      - name: Build
-        run: yarn build
-
-      - name: Publish macOS (electron-builder)
-        env:
-          APPLEID_USERNAME: ${{ secrets.appleid_username }}
-          APPLEID_PASSWORD: ${{ secrets.appleid_password }}
-          CSC_LINK: ${{ secrets.mac_certs }}
-          CSC_KEY_PASSWORD: ${{ secrets.mac_certs_password }}
-          GH_TOKEN: ${{ secrets.gh_token }}
-          NOTARIZE: true
-        run: yarn make:macos --publish always
-
-      - name: Clean up builds
-        run: rm -rfv dist/mac dist/mac-arm64
-
-      - uses: actions/upload-artifact@v3
-        with:
-          name: Instatus-Out-dist-mac
-          path: dist/
-
   release-windows:
     runs-on: windows-latest
     needs: build-windows
