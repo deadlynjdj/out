@@ -5577,10 +5577,10 @@ matcher@^3.0.0:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-menubar@^9.4.0:
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.4.0.tgz#bd04813dddebc1e8236c0ab55910fb618c510c46"
-  integrity sha512-Zn2si5UXiWbdBZwFSsCyQ8xfaBKkeFYceNvjWATyMUreqv6gDMUvDkvZY/ZFf89DCfo9F0SrvygDOdpZuwoWgw==
+menubar@^9.5.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.5.0.tgz#c923c41a2e931568a2d6a72e88c9d3613c788a94"
+  integrity sha512-gAzkurX/8Hfvo6ehJ6yyb8HD1q4glZUXFV4VynVhAbnpob6m4rj6jk5OmONibxALNZ2FEBVqAgBBtBSTU5N7Jw==
   dependencies:
     electron-positioner "^4.1.0"
 
