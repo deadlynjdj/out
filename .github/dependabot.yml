@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
       time: "05:00"
       timezone: "America/New_York"
     versioning-strategy: increase
@@ -16,3 +16,8 @@ updates:
     commit-message:
       # Prefix all commit messages with "npm: "
       prefix: "npm"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
