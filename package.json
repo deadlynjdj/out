@@ -110,7 +110,7 @@
     "afterSign": "scripts/notarize.js"
   },
   "dependencies": {
-    "axios": "1.7.3",
+    "axios": "1.7.4",
     "@primer/octicons-react": "^19.11.0",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
