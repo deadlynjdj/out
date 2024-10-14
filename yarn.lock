@@ -2257,14 +2257,6 @@ builder-util-runtime@9.2.10:
     debug "^4.3.4"
     sax "^1.2.4"
 
-builder-util-runtime@9.2.5:
-  version "9.2.5"
-  resolved "https://registry.yarnpkg.com/builder-util-runtime/-/builder-util-runtime-9.2.5.tgz#0afdffa0adb5c84c14926c7dd2cf3c6e96e9be83"
-  integrity sha512-HjIDfhvqx/8B3TDN4GbABQcgpewTU4LMRTQPkVpKYV3lsuxEJoIfvg09GyWTNmfVNSUAYf+fbTN//JX4TH20pg==
-  dependencies:
-    debug "^4.3.4"
-    sax "^1.2.4"
-
 builder-util@25.1.7:
   version "25.1.7"
   resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-25.1.7.tgz#a07b404f0cb1a635aa165902be65297d58932ff8"
@@ -5885,10 +5877,10 @@ matcher@^3.0.0:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-menubar@^9.5.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.5.0.tgz#c923c41a2e931568a2d6a72e88c9d3613c788a94"
-  integrity sha512-gAzkurX/8Hfvo6ehJ6yyb8HD1q4glZUXFV4VynVhAbnpob6m4rj6jk5OmONibxALNZ2FEBVqAgBBtBSTU5N7Jw==
+menubar@^9.5.1:
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.5.1.tgz#0d0e51cdab62c085ffc7ff38247348a8a4824e46"
+  integrity sha512-swfgKal+DTgJINay36X+LGBSqyFKS4d9FyJ2w0s/4MtO7/UGplEZqluLTnq4xgLNxNjMWhXycOELP+rRYpTagA==
   dependencies:
     electron-positioner "^4.1.0"
 
