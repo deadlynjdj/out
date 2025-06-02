@@ -110,7 +110,7 @@
     "afterSign": "scripts/notarize.js"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.7",
+    "@tailwindcss/postcss": "^4.1.8",
     "axios": "1.9.0",
     "@primer/octicons-react": "^19.15.2",
     "classnames": "^2.5.1",
