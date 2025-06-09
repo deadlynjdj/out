@@ -117,7 +117,7 @@
     "date-fns": "^4.1.0",
     "electron-store": "^8.2.0",
     "electron-updater": "^6.6.2",
-    "final-form": "^4.20.10",
+    "final-form": "^5.0.0",
     "js-search": "^2.0.1",
     "lodash": "^4.17.21",
     "menubar": "^9.5.1",
@@ -125,7 +125,7 @@
     "react": "=19.1.0",
     "react-dom": "=19.1.0",
     "react-emojione": "=5.0.1",
-    "react-final-form": "^6.5.3",
+    "react-final-form": "^7.0.0",
     "react-router-dom": "^5.3.4",
     "react-transition-group": "^4.4.4",
     "react-typist": "^2.0.5"
