@@ -111,7 +111,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
-    "axios": "1.10.0",
+    "axios": "1.11.0",
     "@primer/octicons-react": "^19.15.3",
     "classnames": "^2.5.1",
     "date-fns": "^4.1.0",
