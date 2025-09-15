@@ -1530,10 +1530,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.7.tgz#eb5014dfd0b03e7f3ba2eeeff506eed89b028058"
   integrity sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==
 
-"@primer/octicons-react@^19.17.0":
-  version "19.17.0"
-  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.17.0.tgz#56f0c3807c3062db27786fbb043cd7b1877d2ebf"
-  integrity sha512-XsdVh2zL5mXH514Yz+DwRnCni45hzc9a+c4DP1Xf8HHO2WuAznqd3e/nAq6x0AYktN7mieq/eGHXkVRydl8Zjw==
+"@primer/octicons-react@^19.18.0":
+  version "19.18.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.18.0.tgz#79d773b2cb71b091ec179ce1aeed981a8868d006"
+  integrity sha512-nLFlLmWfz3McbTiOUKVO+iwB15ALYQC9rHeP8K3qM1pyJ8svGaPjGR72BQSEM8ThyQUUodq/Re1n94tO5NNhzQ==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -2724,10 +2724,10 @@ axe-core@^4.10.0:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.0.tgz#d9e56ab0147278272739a000880196cdfe113b59"
   integrity sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==
 
-axios@1.12.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.12.0.tgz#11248459be05a5ee493485628fa0e4323d0abfc3"
-  integrity sha512-oXTDccv8PcfjZmPGlWsPSwtOJCZ/b6W5jAMCNcfwJbCzDckwG0jrYJFaWH1yvivfCXjVzV/SPDEhMB3Q+DSurg==
+axios@1.12.2:
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.12.2.tgz#6c307390136cf7a2278d09cec63b136dfc6e6da7"
+  integrity sha512-vMJzPewAlRyOgxV2dU0Cuz2O8zzzx9VYtbJOaBgXFeLc4IV/Eg50n4LowmehOOR61S8ZMpc2K5Sa7g6A4jfkUw==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.4"
