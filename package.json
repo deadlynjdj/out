@@ -110,7 +110,7 @@
     "afterSign": "scripts/notarize.js"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/postcss": "^4.1.14",
     "axios": "1.12.2",
     "@primer/octicons-react": "^19.18.0",
     "classnames": "^2.5.1",
@@ -122,8 +122,8 @@
     "lodash": "^4.17.21",
     "menubar": "^9.5.1",
     "nprogress": "=0.2.0",
-    "react": "=19.1.1",
-    "react-dom": "=19.1.1",
+    "react": "=19.2.0",
+    "react-dom": "=19.2.0",
     "react-emojione": "=5.0.1",
     "react-final-form": "^7.0.0",
     "react-router-dom": "^5.3.4",
@@ -136,7 +136,7 @@
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.20",
     "@types/node": "^24.5.2",
-    "@types/react": "^19.1.15",
+    "@types/react": "^19.2.0",
     "@types/react-router-dom": "^5.1.7",
     "@types/react-transition-group": "^4.4.12",
     "@typescript-eslint/eslint-plugin": "^8.44.1",
