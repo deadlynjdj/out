@@ -112,7 +112,7 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.14",
     "axios": "1.12.2",
-    "@primer/octicons-react": "^19.18.0",
+    "@primer/octicons-react": "^19.19.0",
     "classnames": "^2.5.1",
     "date-fns": "^4.1.0",
     "electron-store": "^8.2.0",
@@ -120,7 +120,7 @@
     "final-form": "^5.0.0",
     "js-search": "^2.0.1",
     "lodash": "^4.17.21",
-    "menubar": "^9.5.1",
+    "menubar": "^9.5.2",
     "nprogress": "=0.2.0",
     "react": "=19.2.0",
     "react-dom": "=19.2.0",
