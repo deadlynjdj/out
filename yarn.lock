@@ -1454,10 +1454,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.7.tgz#eb5014dfd0b03e7f3ba2eeeff506eed89b028058"
   integrity sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==
 
-"@primer/octicons-react@^19.18.0":
-  version "19.18.0"
-  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.18.0.tgz#79d773b2cb71b091ec179ce1aeed981a8868d006"
-  integrity sha512-nLFlLmWfz3McbTiOUKVO+iwB15ALYQC9rHeP8K3qM1pyJ8svGaPjGR72BQSEM8ThyQUUodq/Re1n94tO5NNhzQ==
+"@primer/octicons-react@^19.19.0":
+  version "19.19.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.19.0.tgz#e4e575004d9fb52b1391952fa8475af7b54becb3"
+  integrity sha512-dTO3khy50yS7XC0FB5L7Wwg+aEjI7mrdiZ+FeZGKiNSpkpcRDn7HTidLdtKgo0cJp6QKpqtUHGHRRpa+wrc6Bg==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -6895,10 +6895,10 @@ math-intrinsics@^1.0.0, math-intrinsics@^1.1.0:
   resolved "https://registry.yarnpkg.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz#a0dd74be81e2aa5c2f27e65ce283605ee4e2b7f9"
   integrity sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==
 
-menubar@^9.5.1:
-  version "9.5.1"
-  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.5.1.tgz#0d0e51cdab62c085ffc7ff38247348a8a4824e46"
-  integrity sha512-swfgKal+DTgJINay36X+LGBSqyFKS4d9FyJ2w0s/4MtO7/UGplEZqluLTnq4xgLNxNjMWhXycOELP+rRYpTagA==
+menubar@^9.5.2:
+  version "9.5.2"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.5.2.tgz#afc16a42c38c07265abe33b5c14d9ab0b7d7ef6d"
+  integrity sha512-yUn4jCMPOiNuqxplEE+SITlTX+Wy92ZNZaG5tsTczEvVT1El8plHR3kinOTfUPwfQcAYcWE0SLiBM41z/hS6pg==
   dependencies:
     electron-positioner "^4.1.0"
 
